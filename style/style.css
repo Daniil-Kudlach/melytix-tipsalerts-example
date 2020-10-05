@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "GilroyUltraLight";
+    src: url("../fonts/GilroyUltraLight/Gilroy-UltraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GilroyLight";
+    src: url("../fonts/GilroyLight/Gilroy-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: "GilroyUltraLight";
+}
+
+body {
+    background-color: #0b0b0c;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: small;
+    color: #ffffff;
+    width: 100vw;
+    padding: 30px 0 30px 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-block-title {
+    color: #da4d5d;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title,
+.bold {
+    font-size: 16pt;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.main-content {
+    width: 60vw;
+}
+
+.title .bold {
+    display: inline-block;
+    width: 100px;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+}
+
+.comment-line {
+    margin-left: -20px;
+}
+
+.system,
+.date,
+.project {
+    margin-top: 5px;
+}
+
+.content-block-title {
+    margin-bottom: 10px;
+}
+
+.content-block-header,
+.comment-header {
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+.block:first-of-type {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
